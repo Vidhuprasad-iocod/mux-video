@@ -1,0 +1,7 @@
+<template>
+    <video
+        src="/mux/Kosher.mp4" type="video/mp4"
+      class="w-[50%] h-full object-contain md:object-cover lg:object-cover "
+      autoplay loop
+    />
+</template>
