@@ -29,15 +29,10 @@ onMounted(() => {
         });
     }
 });
-
-const unmute = () => {
-    video.value.muted = false;
-};
 </script>
 
 <template>
     <div>
-        <video ref="video" autoplay loop playsinline></video>
-        <button @click="unmute">Unmute</button>
+        <video ref="video" autoplay loop playsinline controls></video>
     </div>
 </template>
